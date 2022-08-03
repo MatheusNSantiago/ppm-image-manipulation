@@ -21,7 +21,7 @@ make
 ### Redimensionamento de imagem;
 
 Amplia ou reduz a imagem por um certo fator
-    
+
 ```bash
 ./main entrada.ppm [amp|red] X saida.ppm
 ```
@@ -74,8 +74,8 @@ onde _remove_ indica a função de remover cores e _[r|g|b|rg|rb|gb]_ indica alg
 - gb: remover as cores verde e azul.
 
 ### Filtro de imagem à escolha do grupo;
-
+Rotaciona a imagem em 4 quadrantes 
 
 ```bash
-./main entrada.ppm amp 3 saida.ppm
+./main entrada.ppm filtro saída.ppm
 ```
